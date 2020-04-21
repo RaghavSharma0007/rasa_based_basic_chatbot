@@ -1,0 +1,127 @@
+
+.conversation-container .response {
+    padding: 6px !important;
+}
+.conversation-container .client {
+    padding: 7px !important;
+}
+
+#webchat .launcher {
+	width: 40px;
+	height: 40px;
+}
+.messages-container {
+    height: 70vh !important;
+}
+
+.conversation-container .image-frame {
+    width: 80% !important;
+    height: 70% !important;
+}
+
+.conversation-container .message {
+    margin: 5px 10px;
+    line-height: 1.15;
+}
+
+
+.messages-container {
+
+    background-color: #fff;
+    height: 50vh;
+    max-height: 561px !important;
+    overflow-y: auto;
+    padding-top: 10px;
+
+}
+.messages-container {
+
+    height: 70vh !important;
+
+}
+
+.conversation-container {
+    width: 435px !important;
+}
+
+.conversation-container .reply {
+   
+  border-radius: 0px;
+}
+
+
+.conversation-container .replies {
+    margin: 10px;
+    display: flex-box !important;
+    overflow: auto;
+    font-size: 14px;
+    font-family: Roboto,serif;
+    max-height: 60% !important;
+}
+.conversation-container .reply {
+	width: 50% !important;
+	border-radius: 0px !important;
+
+
+}
+.messages-container {
+    background-color: #fff;
+    height: 50vh;
+    max-height: 100% !important;
+    overflow-y: auto;
+    padding-top: 10px;
+}
+
+.conversation-container .avatar {
+    bottom: 16px !important;
+}
+
+
+
+.conversation-container .header.with-subtitle .avatar {
+
+    top: 11px !important;
+    font-size: 13px !important;
+
+}
+
+.conversation-container .avatar {
+
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    margin-right: 6px;
+    position: relative;
+    bottom: 19px;
+}
+
+.conversation-container .header.with-subtitle {
+
+    height: 54px !important;
+
+}
+
+.conversation-container .title {
+
+    font-size: 18px !important;
+}
+
+
+.conversation-container .header.with-subtitle span {
+
+    bottom: 4px !important;
+    position: absolute;
+    left: 22px;
+    font-size: 13px !important;
+
+}
+
+.conversation-container .avatar {
+   bottom: 17px !important;
+   margin-top: 2px !important;
+}
+
+.close-launcher.default {
+    width: 16px !important;
+}
+

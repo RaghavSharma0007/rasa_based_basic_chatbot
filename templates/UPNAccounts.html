@@ -1,0 +1,193 @@
+<html lang="en">
+<head>
+  <title> UPN Opportunity Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<style>
+.mt-3 {
+    margin-top: 1rem!important;
+	}
+	.head-color
+	{
+	background-color:#1d37b7;
+	color:white;
+	}
+	.right{
+	text-align:right;
+	}
+
+	.border
+	{
+	border:1px solid #1d37b7;
+	}
+	.btn
+	{
+	background-color:#1d37b7;
+	color:white;
+	}
+	hr.style1
+	{
+	border-top: 1px solid #8c8b8b;
+}
+</style>
+
+</head>
+
+
+<body>
+<div class="container">
+<div class="border">
+<div class="row mt-3">
+<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+<p style=color:#1d37b7;><b>Opportunity</b></p>
+
+<form class="form-horizontal">
+    <div class="form-group">
+      <label class="col-sm-6 right">Opportunity Name:</label>
+      <div class="col-sm-6  ">
+       {{list.Opportunity_name}}
+      </div>
+    </div>
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Account  Name:</label>
+      <div class="col-sm-6">
+      {{list.Account_holder_name }}
+      </div>
+    </div>
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Opportunity Type:</label>
+      <div class="col-sm-6">
+       {{list.Opportunity_type}}
+      </div>
+    </div>
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Tracker #</label>
+      <div class="col-sm-6">
+       {{list.id}}
+      </div>
+    </div>
+
+
+	</form>
+
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+&nbsp;
+
+</div>
+</div>
+
+
+<br>
+<hr class="">
+<br>
+
+<p style=color:#1d37b7;><b>{{list.Title_name}}</b></p>
+
+
+<div class="row mt-3">
+<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+
+<form class="form-horizontal">
+    <div class="form-group">
+      <label class="col-sm-6 right">State:</label>
+      <div class="col-sm-6  ">
+      {{list.State_name}}
+      </div>
+    </div>
+
+
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Pricing Type:</label>
+      <div class="col-sm-6">
+       {{list.Pricing_type}}
+      </div>
+    </div>
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Primary Contact Name:</label>
+      <div class="col-sm-6">
+       {{list.Primary_contact_name}}
+      </div>
+    </div>
+
+
+
+	<div class="form-group">
+      <label class="col-sm-6 right">Estimate Type:</label>
+      <div class="col-sm-6">
+       {{list.Estimate_type}}
+      </div>
+    </div>
+
+	</form>
+
+</div>
+
+<div class="col-md-6 col-sm-6 col-xs-6 col-lg-6">
+&nbsp;
+
+</div>
+</div>
+<div class="buttons text-center">
+<button type="button" class="btn">Edit</button>
+<button type="button" class="btn">Cancel</button>
+
+</div>
+
+
+<br>
+<hr class="">
+<br>
+
+
+
+
+<div class="table-responsive mt-3">
+ <table class="table table-bordered">
+    <thead class="head-color">
+      <tr>
+        <th><label><input type="checkbox" value="" disabled></label></th>
+        <th>Circuit Type</th>
+        <th>Product Type</th>
+		<th>Location A</th>
+		<th> Location Z</th>
+		<th> Bandwidth </th>
+		<!-- <th> No. Dark Fiber(s)</th> -->
+		<!-- <th>Existing Tracker</th> -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> <label><input type="checkbox" value="" disabled></label></td>
+        <td>{{list.Circuit_type}}</td>
+        <td>{{list.Product_type}}</td>
+		 <td> {{list.Location_A}}</td>
+		  <td>{{list.Location_Z}}</td>
+		  <td>{{list.Bandwidth}}</td>
+		  <!-- <td></td> -->
+        <!-- <td></td> -->
+		  </tr>
+
+
+    </tbody>
+  </table>
+  </div>
+  </div>
+    </div>
+
+</body>
+</html>

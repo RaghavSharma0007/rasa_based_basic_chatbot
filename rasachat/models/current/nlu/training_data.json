@@ -1,0 +1,1457 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "hey Tom"
+      },
+      {
+        "intent": "greet",
+        "text": "hi tom"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "goodmorning"
+      },
+      {
+        "intent": "greet",
+        "text": "goodafternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "whatsup?"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up Tom"
+      },
+      {
+        "intent": "greet",
+        "text": "how are you doing"
+      },
+      {
+        "intent": "greet",
+        "text": "how is it going"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning tom"
+      },
+      {
+        "intent": "greet",
+        "text": "good afternoon"
+      },
+      {
+        "intent": "greet",
+        "text": "good day"
+      },
+      {
+        "intent": "greet",
+        "text": "good night"
+      },
+      {
+        "intent": "greet",
+        "text": "morning"
+      },
+      {
+        "intent": "greet",
+        "text": "good evening"
+      },
+      {
+        "intent": "greet",
+        "text": "are you around"
+      },
+      {
+        "intent": "greet",
+        "text": "whatsup"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi, How is it going?"
+      },
+      {
+        "intent": "greet",
+        "text": "Nice to meet you."
+      },
+      {
+        "intent": "greet",
+        "text": "Top of the morning to you!"
+      },
+      {
+        "intent": "greet",
+        "text": "What's up?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hi bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "greet",
+        "text": "Good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hi again"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there"
+      },
+      {
+        "intent": "greet",
+        "text": "greetings"
+      },
+      {
+        "intent": "greet",
+        "text": "hello everybody"
+      },
+      {
+        "intent": "greet",
+        "text": "hello robot"
+      },
+      {
+        "intent": "greet",
+        "text": "hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heeey"
+      },
+      {
+        "intent": "greet",
+        "text": "hi hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello there"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hello tom"
+      },
+      {
+        "intent": "greet",
+        "text": "yo"
+      },
+      {
+        "intent": "greet",
+        "text": "hola"
+      },
+      {
+        "intent": "greet",
+        "text": "hi?"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot!"
+      },
+      {
+        "intent": "greet",
+        "text": "hello friend"
+      },
+      {
+        "intent": "greet",
+        "text": "good morning"
+      },
+      {
+        "intent": "greet",
+        "text": "hii"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "yoo"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "greet",
+        "text": "hiihihi"
+      },
+      {
+        "intent": "greet",
+        "text": "helloooo"
+      },
+      {
+        "intent": "greet",
+        "text": "heyo"
+      },
+      {
+        "intent": "greet",
+        "text": "ayyyy whaddup"
+      },
+      {
+        "intent": "greet",
+        "text": "hello?"
+      },
+      {
+        "intent": "greet",
+        "text": "Hallo"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "hey bot"
+      },
+      {
+        "intent": "greet",
+        "text": "Hellllooooooo"
+      },
+      {
+        "intent": "greet",
+        "text": "whats up"
+      },
+      {
+        "intent": "greet",
+        "text": "Hei"
+      },
+      {
+        "intent": "greet",
+        "text": "Well hello there ;)"
+      },
+      {
+        "intent": "greet",
+        "text": "I said, helllllloooooO!!!!"
+      },
+      {
+        "intent": "greet",
+        "text": "Heya"
+      },
+      {
+        "intent": "greet",
+        "text": "Whats up my bot"
+      },
+      {
+        "intent": "greet",
+        "text": "hiii"
+      },
+      {
+        "intent": "greet",
+        "text": "heyho"
+      },
+      {
+        "intent": "greet",
+        "text": "hey,"
+      },
+      {
+        "intent": "greet",
+        "text": "hey dude"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "what up"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hi there it's me"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Netsmartz test",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "Netsmartz test"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "netsmartz test",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "netsmartz test"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[Netsmartz test 1]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[netsmartz test 1]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[netsmartz Test 1]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[Netsmartz Test 1]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[Netsmartz Test 2]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[Netsmartz Test 3]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[netsmartz Test 2]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "text": "[netsmartz Test 3]"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 22,
+            "value": "Netsmartz test",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "this is Netsmartz test"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 22,
+            "value": "netsmartz test",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "that is netsmartz test"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "netsmartz test 2",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "that is netsmartz test 2"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 24,
+            "value": "netsmartz test 3",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "that is netsmartz test 3"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "Netsmartz test 1",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "note opportunity is Netsmartz test 1"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "netsmartz test 1",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "note opportunity is netsmartz test 1"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 37,
+            "value": "Netsmartz test",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "my opportunity name is Netsmartz test"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "netsmartz test 2",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "note opportunity is netsmartz test 2"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 20,
+            "end": 36,
+            "value": "netsmartz test 3",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "note opportunity is netsmartz test 3"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Netsmartz test 2",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "my opportunity name is Netsmartz test 2"
+      },
+      {
+        "intent": "user_opportunity_name",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "Netsmartz test 3",
+            "entity": "opportunity_name"
+          }
+        ],
+        "text": "my opportunity name is Netsmartz test 3"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 5,
+            "value": "james",
+            "entity": "account_name"
+          }
+        ],
+        "text": "james"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "amber's account",
+            "entity": "account_name"
+          }
+        ],
+        "text": "amber's account"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "Amber's account",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Amber's account"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "james's account",
+            "entity": "account_name"
+          }
+        ],
+        "text": "james's account"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 16,
+            "value": "Mathew's account",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Mathew's account"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 24,
+            "value": "Mathew Baynton's account",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Mathew Baynton's account"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "Rahul sharma",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Rahul sharma"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "james bond",
+            "entity": "account_name"
+          }
+        ],
+        "text": "james bond"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Millie Bobby Brown",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Millie Bobby Brown"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 14,
+            "value": "Mathew Baynton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "Mathew Baynton"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 26,
+            "value": "vikram Sarabhai",
+            "entity": "account_name"
+          }
+        ],
+        "text": "my name is vikram Sarabhai"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 24,
+            "value": "Mischa Barton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "my name is Mischa Barton"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Amartya Sen",
+            "entity": "account_name"
+          }
+        ],
+        "text": "myself Amartya Sen"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 16,
+            "value": "mr. Harry",
+            "entity": "account_name"
+          }
+        ],
+        "text": "myself mr. Harry"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 5,
+            "end": 19,
+            "value": "Mathew Baynton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "i am Mathew Baynton."
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 26,
+            "value": "Millie Bobby Brown",
+            "entity": "account_name"
+          }
+        ],
+        "text": "This is Millie Bobby Brown."
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 28,
+            "value": "Mischa Barton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "ok, my name is Mischa Barton"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 22,
+            "value": "Milkha Singh",
+            "entity": "account_name"
+          }
+        ],
+        "text": "ok myself Milkha Singh."
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 19,
+            "value": "mr. Harry",
+            "entity": "account_name"
+          }
+        ],
+        "text": "ok myself mr. Harry."
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 10,
+            "end": 20,
+            "value": "james bond",
+            "entity": "account_name"
+          }
+        ],
+        "text": "ok myself james bond."
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "james",
+            "entity": "account_name"
+          }
+        ],
+        "text": "ok, my name is james"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 20,
+            "value": "Mischa Barton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "myself Mischa Barton"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 7,
+            "end": 22,
+            "value": "MiE. Sreedharan",
+            "entity": "account_name"
+          }
+        ],
+        "text": "myself MiE. Sreedharan"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "james",
+            "entity": "account_name"
+          }
+        ],
+        "text": "my name is james"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 27,
+            "value": "Mathew Baynton",
+            "entity": "account_name"
+          }
+        ],
+        "text": "note my name Mathew Baynton"
+      },
+      {
+        "intent": "user_account_name",
+        "entities": [
+          {
+            "start": 13,
+            "end": 25,
+            "value": "Kamal Haasan",
+            "entity": "account_name"
+          }
+        ],
+        "text": "note my name Kamal Haasan"
+      },
+      {
+        "intent": "ask_state_name",
+        "entities": [
+          {
+            "start": 12,
+            "end": 14,
+            "value": "CA",
+            "entity": "state_name"
+          }
+        ],
+        "text": "my state is CA"
+      },
+      {
+        "intent": "ask_state_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "CO",
+            "entity": "state_name"
+          }
+        ],
+        "text": "CO is mine."
+      },
+      {
+        "intent": "ask_state_name",
+        "entities": [
+          {
+            "start": 15,
+            "end": 17,
+            "value": "FL",
+            "entity": "state_name"
+          }
+        ],
+        "text": "i am living in FL"
+      },
+      {
+        "intent": "ask_contact_name",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "Tim Curry",
+            "entity": "contact_name"
+          }
+        ],
+        "text": "my contact name is Tim Curry"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 14,
+            "end": 22,
+            "value": "Option 1",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Title name is Option 1"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 9,
+            "end": 17,
+            "value": "Option 2",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Title is Option 2"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 25,
+            "end": 33,
+            "value": "Option 3",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Title for opportunity is Option 3"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Option 1",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Option 1"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "Option 2",
+            "entity": "title_name"
+          }
+        ],
+        "text": "This is Option 2"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Option 2",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Option 2"
+      },
+      {
+        "intent": "ask_title_name",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Option 3",
+            "entity": "title_name"
+          }
+        ],
+        "text": "Option 3"
+      },
+      {
+        "intent": "ask_pricing",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "On Net",
+            "entity": "pricing"
+          }
+        ],
+        "text": "On Net"
+      },
+      {
+        "intent": "ask_pricing",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "ICB",
+            "entity": "pricing"
+          }
+        ],
+        "text": "ICB"
+      },
+      {
+        "intent": "ask_pricing",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "Near Net",
+            "entity": "pricing"
+          }
+        ],
+        "text": "Near Net"
+      },
+      {
+        "intent": "ask_estimate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 31,
+            "value": "$0 - $50K (3 Days-RVP Approval)",
+            "entity": "estimate_type"
+          }
+        ],
+        "text": "$0 - $50K (3 Days-RVP Approval)"
+      },
+      {
+        "intent": "ask_estimate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 34,
+            "value": "$51K - $150K (4 Days-RVP Approval)",
+            "entity": "estimate_type"
+          }
+        ],
+        "text": "$51K - $150K (4 Days-RVP Approval)"
+      },
+      {
+        "intent": "ask_estimate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 46,
+            "value": "$151K - $500K (6 Days-RVP & VP Const Approval)",
+            "entity": "estimate_type"
+          }
+        ],
+        "text": "$151K - $500K (6 Days-RVP & VP Const Approval)"
+      },
+      {
+        "intent": "ask_estimate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 43,
+            "value": "$501K - $1.5M (10 Days-RVP, VP Const & COO)",
+            "entity": "estimate_type"
+          }
+        ],
+        "text": "$501K - $1.5M (10 Days-RVP, VP Const & COO)"
+      },
+      {
+        "intent": "ask_estimate",
+        "entities": [
+          {
+            "start": 0,
+            "end": 41,
+            "value": "New Markets (15 Days-RVP, VP Const & COO)",
+            "entity": "estimate_type"
+          }
+        ],
+        "text": "New Markets (15 Days-RVP, VP Const & COO)"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "A",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "A"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "B",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "B"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "C",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "C"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "D",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "D"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "E",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "E"
+      },
+      {
+        "intent": "ask_circuit_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "F",
+            "entity": "circuit_type"
+          }
+        ],
+        "text": "F"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "a",
+            "entity": "product_type"
+          }
+        ],
+        "text": "a"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "b",
+            "entity": "product_type"
+          }
+        ],
+        "text": "b"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "c",
+            "entity": "product_type"
+          }
+        ],
+        "text": "c"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "d",
+            "entity": "product_type"
+          }
+        ],
+        "text": "d"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "e",
+            "entity": "product_type"
+          }
+        ],
+        "text": "e"
+      },
+      {
+        "intent": "ask_product_type",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "f",
+            "entity": "product_type"
+          }
+        ],
+        "text": "f"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 13,
+            "end": 21,
+            "value": "800 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "Bandwidth is 800 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 19,
+            "end": 27,
+            "value": "100 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "bandwidth value is 100 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "20 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "this is 20 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 13,
+            "end": 22,
+            "value": "8000 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "bandwidth is 8000 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 19,
+            "end": 28,
+            "value": "1000 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "Bandwidth value is 1000 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "800 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "This is 800 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "80 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "80 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 8,
+            "end": 14,
+            "value": "8 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "That is 8 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "5 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "5 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "50 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "50 Gbps"
+      },
+      {
+        "intent": "ask_bandwidth",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "5000 Gbps",
+            "entity": "bandwidth"
+          }
+        ],
+        "text": "5000 Gbps"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "X",
+            "entity": "location"
+          }
+        ],
+        "text": "X"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "Y",
+            "entity": "location"
+          }
+        ],
+        "text": "Y"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "Z",
+            "entity": "location"
+          }
+        ],
+        "text": "Z"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "U",
+            "entity": "location"
+          }
+        ],
+        "text": "U"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "V",
+            "entity": "location"
+          }
+        ],
+        "text": "V"
+      },
+      {
+        "intent": "ask_location_A_a",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "W",
+            "entity": "location"
+          }
+        ],
+        "text": "W"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "X",
+            "entity": "location"
+          }
+        ],
+        "text": "X"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "Y",
+            "entity": "location"
+          }
+        ],
+        "text": "Y"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "Z",
+            "entity": "location"
+          }
+        ],
+        "text": "Z"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "U",
+            "entity": "location"
+          }
+        ],
+        "text": "U"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "V",
+            "entity": "location"
+          }
+        ],
+        "text": "V"
+      },
+      {
+        "intent": "ask_location_Z_z",
+        "entities": [
+          {
+            "start": 0,
+            "end": 1,
+            "value": "W",
+            "entity": "location"
+          }
+        ],
+        "text": "W"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

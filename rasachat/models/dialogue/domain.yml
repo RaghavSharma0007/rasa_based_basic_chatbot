@@ -1,0 +1,232 @@
+%YAML 1.1
+---
+actions:
+- action_default_fallback
+- utter_greet
+- utter_opportunity_name
+- utter_opportunity_type
+- utter_opportunity_done
+- utter_account_name
+- utter_state_list
+- utter_contact
+- utter_title
+- utter_pricing
+- utter_estimate
+- utter_circuit
+- utter_product
+- utter_bandwidth
+- utter_location_A_a
+- utter_location_Z_z
+- utter_submit_circuit
+- utter_submit_option
+- action_submit_cir
+- utter_submit_opp
+config:
+  store_entities_as_slots: true
+entities:
+- opportunity_name
+- account_name
+- state_name
+- contact_name
+- title_name
+- pricing
+- estimate_type
+- circuit_type
+- product_type
+- bandwidth
+- location_Z_z
+- location_A_a
+forms: []
+intents:
+- greet:
+    use_entities: true
+- user_opportunity_name:
+    use_entities: true
+- user_account_name:
+    use_entities: true
+- ask_state_name:
+    use_entities: true
+- ask_contact_name:
+    use_entities: true
+- ask_title_name:
+    use_entities: true
+- ask_pricing:
+    use_entities: true
+- ask_estimate:
+    use_entities: true
+- ask_circuit_type:
+    use_entities: true
+- ask_product_type:
+    use_entities: true
+- ask_bandwidth:
+    use_entities: true
+- ask_location_A_a:
+    use_entities: true
+- ask_location_Z_z:
+    use_entities: true
+- ask_submit_opp:
+    use_entities: true
+- ask_submit_cir:
+    use_entities: true
+slots:
+  account_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  bandwidth:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  circuit_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  contact_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  estimate_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location_A_a:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  location_Z_z:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  opportunity_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  pricing:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  product_type:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  state_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  title_name:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_account_name:
+  - text: ' Please mention the account name.'
+  utter_bandwidth:
+  - text: Tell me the bandwidth value.
+  utter_circuit:
+  - buttons:
+    - payload: /ask_circuit_type{"circuit_type":"New Circuit"}
+      title: New Circuit
+    text: To add the circuit choose the circuit type.
+  utter_contact:
+  - buttons:
+    - payload: /ask_contact_name{"contact_name":"Jason Miller"}
+      title: Jason Miller
+    - payload: /ask_contact_name{"contact_name":"Jerome Simoneau"}
+      title: Jerome Simoneau
+    - payload: /ask_contact_name{"contact_name":"Tom Felton"}
+      title: Tom Felton
+    - payload: /ask_contact_name{"contact_name":"Joseph Fiennes"}
+      title: Joseph Fiennes
+    - payload: /ask_contact_name{"contact_name":"Colin Firth"}
+      title: Colin Firth
+    - payload: /ask_contact_name{"contact_name":"Emilia Fox"}
+      title: 'Emilia Fox '
+    text: Choose the primary contact name from the given list.
+  utter_estimate:
+  - buttons:
+    - payload: /ask_estimate{"estimate_type":"$0 - $50K (3 Days-RVP Approval)"}
+      title: $0 - $50K (3 Days-RVP Approval)
+    - payload: /ask_estimate{"estimate_type":"$51K - $150K (4 Days-RVP Approval)"}
+      title: $51K - $150K (4 Days-RVP Approval)
+    - payload: /ask_estimate{"estimate_type":"$151K - $500K (6 Days-RVP & VP Const
+        Approval)"}
+      title: $151K - $500K (6 Days-RVP & VP Const Approval)
+    - payload: /ask_estimate{"estimate_type":"$501K - $1.5M (10 Days-RVP, VP Const
+        & COO)"}
+      title: $501K - $1.5M (10 Days-RVP, VP Const & COO)
+    - payload: /ask_estimate{"estimate_type":"New Markets (15 Days-RVP, VP Const &
+        COO)"}
+      title: New Markets (15 Days-RVP, VP Const & COO)
+    text: Choose the estimate type from the given list.
+  utter_greet:
+  - text: Hi! This is Tom,  UPN’s virtual assistant.
+  utter_location_A_a:
+  - buttons:
+    - payload: /ask_location_A_a{"location_A_a":"123 E Marcy St Ste 201, Santa Fe,
+        NM, 87501, Santa Fe Office (Modrall Sperling)"}
+      title: 123 E Marcy St Ste 201, Santa Fe, NM, 87501, Santa Fe Office (Modrall
+        Sperling)
+    - payload: /ask_location_A_a{"location_A_a":"115 N Second Ave E, Newton, IA, 50208,
+        Jasper County Annex"}
+      title: 115 N Second Ave E, Newton, IA, 50208, Jasper County Annex
+    text: Select an appropriate location in Location A circuit.
+  utter_location_Z_z:
+  - buttons:
+    - payload: /ask_location_Z_z{"location_Z_z":"123 E Marcy St Ste 201, Santa Fe,
+        NM, 87501, Santa Fe Office (Modrall Sperling)"}
+      title: 123 E Marcy St Ste 201, Santa Fe, NM, 87501, Santa Fe Office (Modrall
+        Sperling)
+    - payload: /ask_location_Z_z{"location_Z_z":"115 N Second Ave E, Newton, IA, 50208,
+        Jasper County Annex"}
+      title: 115 N Second Ave E, Newton, IA, 50208, Jasper County Annex
+    text: Select an appropriate location in Location Z circuit.
+  utter_opportunity_done:
+  - text: ' An opportunity named "{opportunity_name}" has been created with account
+      name "{account_name}" .'
+  utter_opportunity_name:
+  - text: To create an opportunity mention the opportunity name.
+  utter_opportunity_type:
+  - text: ' Opportunity type : New Business'
+  utter_pricing:
+  - buttons:
+    - payload: /ask_pricing{"pricing":"On Net"}
+      title: On Net
+    - payload: /ask_pricing{"pricing":"ICB"}
+      title: ICB
+    - payload: /ask_pricing{"pricing":"Near Net"}
+      title: Near Net
+    text: Choose the type of pricing from the list.
+  utter_product:
+  - buttons:
+    - payload: /ask_product_type{"product_type":"Bidirectional NNI"}
+      title: Bidirectional NNI
+    - payload: /ask_product_type{"product_type":"Cloud Connect"}
+      title: Cloud Connect
+    - payload: /ask_product_type{"product_type":"Colo Service"}
+      title: Colo Service
+    - payload: /ask_product_type{"product_type":"Cross Connect"}
+      title: Cross Connect
+    text: Choose the product type.
+  utter_state_list:
+  - buttons:
+    - payload: /ask_state_name{"state_name":"AZ"}
+      title: AZ
+    - payload: /ask_state_name{"state_name":"CA"}
+      title: CA
+    - payload: /ask_state_name{"state_name":"CO"}
+      title: CO
+    text: Select the state from state list.
+  utter_submit_circuit:
+  - buttons:
+    - payload: /ask_submit_cir
+      title: Save Circuit
+    text: Click below to save the circuit.
+  utter_submit_opp:
+  - buttons:
+    - payload: /ask_submit_opp
+      title: Submit
+    text: Click below to submit the option for this opportunity.
+  utter_submit_option:
+  - text: An option for this opportunity has been submitted.
+  utter_title:
+  - text: To add an option for this opportunity, please mention title name.
